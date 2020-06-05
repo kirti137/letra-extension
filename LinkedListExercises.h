@@ -25,15 +25,14 @@
  ********************************************************************/
 
 // Prevent the header from being included more than once per cpp file
-#pragma once
+
 
 // It's good to put system headers first, so that if your own libraries
 // cause conflicts, the compiler will most likely identify the problem
 // as being in your own source code files, where it arises later.
-#include <iostream>
-#include <string>
 
-#include "LinkedList.h"
+
+
 
 /********************************************************************
   Exercise 1: insertOrdered
